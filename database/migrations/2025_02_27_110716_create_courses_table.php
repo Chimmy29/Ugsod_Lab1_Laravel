@@ -18,8 +18,7 @@ return new class extends Migration
             $table->unsignedBigInteger('grade_id');
             $table->timestamps();
     
-            // Foreign key constraint
-            $table->foreign('grade_id')->references('grade_id')->on('grades')->onDelete('cascade');
+           
         });
     }
 

@@ -18,7 +18,7 @@ return new class extends Migration
             $table->date('start_date');
             $table->timestamps();
     
-            $table->foreign('exam_type_id')->references('exam_type_id')->on('exam_types');
+            
         });
     }
 

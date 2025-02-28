@@ -17,9 +17,7 @@ return new class extends Migration
             $table->unsignedBigInteger('course_id');
             $table->integer('marks');
     
-            $table->foreign('exam_id')->references('exam_id')->on('exams');
-            $table->foreign('student_id')->references('student_id')->on('students');
-            $table->foreign('course_id')->references('course_id')->on('courses');
+           
         });
     }
 

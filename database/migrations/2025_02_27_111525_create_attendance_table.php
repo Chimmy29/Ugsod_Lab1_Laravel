@@ -17,7 +17,7 @@ return new class extends Migration
             $table->boolean('status');
             $table->text('remark')->nullable();
     
-            $table->foreign('student_id')->references('student_id')->on('students');
+           
         });
     }
 
