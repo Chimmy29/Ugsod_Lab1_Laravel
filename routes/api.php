@@ -3,6 +3,4 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return "Hello from api";
-});
+Route::apiResource('products', ProductController::class);
